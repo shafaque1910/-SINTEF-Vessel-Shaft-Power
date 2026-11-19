@@ -1,0 +1,43 @@
+{
+  "policy_version": "professor_aligned_v2",
+  "selected_family": "rpm_cubic",
+  "methods": [
+    "static_rpm_cubic",
+    "historical_offset_72h",
+    "rolling_rpm_cubic_72h"
+  ],
+  "shaft_label_delay_hours": 72,
+  "history_days": 7,
+  "minimum_labels": 100,
+  "minimum_covered_days": 3,
+  "first_update": "2024-08-04T00:00:00Z",
+  "last_update": "2025-01-31T00:00:00Z",
+  "domain": {
+    "low": {
+      "engine_rpm_abs": -8.487500000000004,
+      "turbo": -1909.7089769374998,
+      "fuel_load": -6.423473249999997,
+      "scavenge": -0.98637375,
+      "stw": -3.7250000000000005,
+      "sog": -2.6875,
+      "turn_abs": -1.0
+    },
+    "high": {
+      "engine_rpm_abs": 101.26250000000002,
+      "turbo": 15904.6535492125,
+      "fuel_load": 61.9152107825,
+      "scavenge": 2.8299046075,
+      "stw": 17.475,
+      "sog": 17.1125,
+      "turn_abs": 8.840750000000117
+    }
+  },
+  "domain_provenance": "Frozen January-May independent-feature bounds, retained in v2 impact study; recomputing with v2 labels changes zero gates on supplied record",
+  "near_zero_kw": 100,
+  "rpm_absolute_tolerance": 4.188168054399988,
+  "new_selection_or_tuning": false,
+  "physical_truth_certified": false,
+  "noon_availability": "covered UTC day D becomes available D+2 days; no direct features; does not establish shaft-label arrival",
+  "uncertainty": "Static August recorded-proxy residual radius is retrospective only; no physical coverage guarantee, no adaptive interval transfer",
+  "origin": "Accepted retrospective scientific baseline; policy professor_aligned_v2, metadata primary_reason_priority_v1. Prior selection is frozen and is not rerun."
+}

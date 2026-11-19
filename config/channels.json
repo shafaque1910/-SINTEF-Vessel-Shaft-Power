@@ -1,0 +1,114 @@
+[
+  [
+    "1::0::14::0_1::2::0::8::0_3::0::3::0_8",
+    "scavenge",
+    "Transducer Pressure",
+    "bar",
+    "engine"
+  ],
+  [
+    "1::0::15::0_1::2::0::3::0_1::0::6::0_8",
+    "turbo",
+    "Transducer RPM",
+    "rpm",
+    "engine"
+  ],
+  [
+    "1::0::25::0_1::2::0::8::0_20::0::1::0_8",
+    "fuel_load",
+    "Transducer Fuel Load",
+    "%",
+    "engine"
+  ],
+  [
+    "2::0::11::0_1::1::0::3::0_1::0::6::0_8",
+    "shaft_rpm",
+    "Instrument Torquemeter",
+    "rpm",
+    "mechanical"
+  ],
+  [
+    "2::0::11::0_1::1::0::3::0_12::0::1::0_8",
+    "revolutions",
+    "Instrument Torquemeter",
+    "",
+    "mechanical"
+  ],
+  [
+    "2::0::11::0_1::1::0::3::0_12::0::2::0_8",
+    "torque",
+    "Instrument Torquemeter",
+    "N*m",
+    "mechanical"
+  ],
+  [
+    "2::0::11::0_1::1::0::3::0_14::0::1::0_8",
+    "power",
+    "Instrument Torquemeter",
+    "KW",
+    "target"
+  ],
+  [
+    "2::0::11::0_1::1::0::3::0_15::0::1::0_8",
+    "energy",
+    "Instrument Torquemeter",
+    "KWh",
+    "mechanical"
+  ],
+  [
+    "2::0::11::0_1::1::0::3::0_17::0::1::0_8",
+    "thrust",
+    "Instrument Torquemeter",
+    "KN",
+    "mechanical"
+  ],
+  [
+    "2::0::11::0_1::2::0::8::0_22::0::1::1_8",
+    "fuel_flow",
+    "Instrument Torquemeter",
+    "kg/hr",
+    "mechanical"
+  ],
+  [
+    "3::0::1::0_1::2::0::8::0_1::0::6::0_8",
+    "engine_rpm",
+    "Control Alarm Monitoring System",
+    "rpm",
+    "engine"
+  ],
+  [
+    "2::0::6::1_1::1::0::2::0_1::0::1::0_8",
+    "sog",
+    "Instrument GPS 1",
+    "knots",
+    "navigation"
+  ],
+  [
+    "2::0::7::0_1::1::0::2::0_1::0::5::11_8",
+    "stw",
+    "Instrument Speedlog",
+    "knots",
+    "navigation"
+  ],
+  [
+    "2::0::5::0_1::1::0::2::0_6::0::1::0_8",
+    "turn",
+    "Instrument Gyrocompass",
+    "deg/min",
+    "navigation"
+  ],
+  [
+    "3::0::1::0_1::1::0::2::0_11::0::1::0_8",
+    "draft_fore",
+    "Control Alarm Monitoring System",
+    "m",
+    "context"
+  ],
+  [
+    "3::0::1::0_1::1::0::2::0_11::0::2::0_8",
+    "draft_aft",
+    "Control Alarm Monitoring System",
+    "m",
+    "context"
+  ]
+]

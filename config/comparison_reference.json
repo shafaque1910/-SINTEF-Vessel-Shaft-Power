@@ -1,0 +1,153 @@
+{
+  "models": {
+    "hgb_15": {
+      "parameters": {
+        "categorical_features": "from_dtype",
+        "early_stopping": false,
+        "interaction_cst": null,
+        "l2_regularization": 10,
+        "learning_rate": 0.08,
+        "loss": "squared_error",
+        "max_bins": 255,
+        "max_depth": null,
+        "max_features": 1.0,
+        "max_iter": 120,
+        "max_leaf_nodes": 15,
+        "min_samples_leaf": 80,
+        "monotonic_cst": null,
+        "n_iter_no_change": 10,
+        "quantile": null,
+        "random_state": 731,
+        "scoring": "loss",
+        "tol": 1e-07,
+        "validation_fraction": 0.1,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "iterations": 120,
+      "initial_prediction": [
+        [
+          4096.541537943035
+        ]
+      ],
+      "tree_sha256": "6bf00cc8cbded65f84e8ad0f218e70fdc0f42e1926d743ce04cfec2b2fbcb050"
+    },
+    "hgb_31": {
+      "parameters": {
+        "categorical_features": "from_dtype",
+        "early_stopping": false,
+        "interaction_cst": null,
+        "l2_regularization": 10,
+        "learning_rate": 0.08,
+        "loss": "squared_error",
+        "max_bins": 255,
+        "max_depth": null,
+        "max_features": 1.0,
+        "max_iter": 120,
+        "max_leaf_nodes": 31,
+        "min_samples_leaf": 80,
+        "monotonic_cst": null,
+        "n_iter_no_change": 10,
+        "quantile": null,
+        "random_state": 731,
+        "scoring": "loss",
+        "tol": 1e-07,
+        "validation_fraction": 0.1,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "iterations": 120,
+      "initial_prediction": [
+        [
+          4096.541537943035
+        ]
+      ],
+      "tree_sha256": "61b75d1cf6c2ef697eb0a3442d4189373b2781ec7e95ab99710811bc2237a08d"
+    },
+    "mean": {
+      "kind": "mean",
+      "value": 4096.541537943035
+    },
+    "ridge_1": {
+      "alpha": 1,
+      "scaler_mean": [
+        67.7625533508602,
+        9790.23784076177,
+        36.63415345954347,
+        1.0969049452033577,
+        9.248313297357136,
+        9.089521488861214,
+        0.7399142105991421
+      ],
+      "scaler_scale": [
+        36.77003771286975,
+        5407.28566766018,
+        20.12834419630033,
+        0.6568345247329803,
+        5.152493549510307,
+        5.0448374349532585,
+        1.2749765739201835
+      ],
+      "coefficients": [
+        -112.41736640363293,
+        292.30845914670545,
+        277.27630615092227,
+        1737.594383544162,
+        352.78861016441704,
+        -101.382077468119,
+        -11.93929440566987
+      ],
+      "intercept": 4096.541537943035
+    },
+    "ridge_100": {
+      "alpha": 100,
+      "scaler_mean": [
+        67.7625533508602,
+        9790.23784076177,
+        36.63415345954347,
+        1.0969049452033577,
+        9.248313297357136,
+        9.089521488861214,
+        0.7399142105991421
+      ],
+      "scaler_scale": [
+        36.77003771286975,
+        5407.28566766018,
+        20.12834419630033,
+        0.6568345247329803,
+        5.152493549510307,
+        5.0448374349532585,
+        1.2749765739201835
+      ],
+      "coefficients": [
+        -110.09778262187943,
+        308.82014854526125,
+        272.8312118131925,
+        1725.6268963502469,
+        344.91981345246575,
+        -96.69103553607468,
+        -12.137888751697009
+      ],
+      "intercept": 4096.541537943035
+    },
+    "rpm_cubic": {
+      "kind": "rpm_cubic",
+      "value": 0.007814723314821357
+    },
+    "speed_cubic": {
+      "kind": "speed_cubic",
+      "value": 2.7654103322633588
+    }
+  },
+  "source_hashes": {
+    "hgb_15": "2eb7a0d5e455f18990bdf03640733f7a2b3cce94c79183ef475d0ecd45a73ada",
+    "hgb_31": "1a487d632eb9eb1cc92162ee91277d7da26e4153bfccab121ddd8a2b0d90bfe7",
+    "mean": "232abd9313bcc9dbe8912a2415485841ab186ffbcc680abc44d417793139e0bd",
+    "ridge_1": "6cb46ba88e7d3851824c78bed690f5e4c01656d28e5b6cfe3cbd04026e3ce10d",
+    "ridge_100": "1162218d4e6ace9ad3b8a16294b4eb6b32737eaeeb323f5849531d0220987e18",
+    "rpm_cubic": "eb8b430580320277d0fc76537aa85f6da3598db08402bcf1c5475036cdceb5c9",
+    "speed_cubic": "5aacfb24ce2e60f0e505f29bb582355c7195e4fdb0b0f998600d8cb0aa2f7afb"
+  },
+  "source_fit_labels": 180675,
+  "scored_policy": "professor_aligned_v2"
+}

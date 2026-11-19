@@ -1,0 +1,100 @@
+{
+  "scientific_policy": "professor_aligned_v2",
+  "metadata_revision": "primary_reason_priority_v1",
+  "baseline_id": "run_20261104_final_v2_02_metadata",
+  "baseline_source_archive_sha256": "3fc76b371f8cc5c6310fd406cf0636173c7435c6e1fdf21bb77c5ce01499ce8a",
+  "frame_fingerprints": {
+    "measurements": "0c89df6d04a37a5f9b12e4856007fe6dc4a58c99308cf9e63287708a446d6e8b",
+    "labels": "3f368ebb5f13cd01487403ebd7889c577cddfe98cc3544abac89d026e04211ea",
+    "reliability": "8a604611d90ac8d71589f0934e46440d8f6fd3415eaada0e38554d40b823b5cc",
+    "features": "837fe8645e07d9048f353e22ba433e023a9f7e8315f660e4e86d923be429dea3",
+    "predictions": "2b16367dac13a87ed053b3e0191e61fda2d09fbfd22400901ce172a085563872",
+    "update_history": "e940e812c6c0b1ff4a304b8819ae859a5dfdfb4dffa34265964a898b724bde31"
+  },
+  "metrics_fingerprint": "69c63a42117d8bb9c840cd50e833f58b34e14c773e1a4343ea3737e166de88f0",
+  "coverage_fingerprint": "0ab7d9d0dddc182407f66004c175dd7c24cda87a549f3d5641ad968da11a13e5",
+  "label_counts_fingerprint": "54fc8577719783d87280e891919bffbcf17d2759c2673871339e8f31e235b815",
+  "uncertainty_fingerprint": "bf187433a942461a6abdff9f603356d808127130e57bd7b58a0c5387840b434b",
+  "model": {
+    "policy_version": "professor_aligned_v2",
+    "coefficient": 0.007814723394034443,
+    "training_labels": 180673,
+    "training_members_sha256": "4aeaafc3154f4a2481ecc58f7019103462db13d7ec99ceb9dc05890f2bb6cb5f",
+    "training_first": "2024-01-01 00:01:00+00:00",
+    "training_last": "2024-06-01 00:00:00+00:00",
+    "selector_last": "2024-08-01 00:00:00+00:00",
+    "first_update": "2024-08-04 00:00:00+00:00",
+    "denominator": 6.671129806879502e+16,
+    "model_families": [
+      "rpm_cubic"
+    ],
+    "new_selection": false,
+    "tuning_performed": false,
+    "fixed_methods": [
+      "static_rpm_cubic",
+      "historical_offset_72h",
+      "rolling_rpm_cubic_72h"
+    ]
+  },
+  "raw_inputs": {
+    "1.csv": "4560438eeed6a2fcf295cddcc6f5edcd3ba716ba1e57c285958c559ecadeafff",
+    "10.csv": "b7ffa93556b470a551e5d0f36d1b6946a04854537a8ded0a4c4eca907187223b",
+    "11.csv": "cea664e1a7be7892ba5e33ac12a9d5a91ba92e1e780909cc8c4eb1d89f9db3e3",
+    "12.csv": "60bf0dcf012b7c93fbe8050be1717a75f24287f2112ceede72aa41fef01f7fb1",
+    "2.csv": "0b5406462ca2d10cf4ad8a0e851bb619a029197e202a6b2cf07d2dcfbc7b5135",
+    "3.csv": "3bd59f99ba57e1d2125bb2257c66daa8347aadf83ec7430f059daec0b68aa33c",
+    "4.csv": "64eedac23796ce53071687d675820d893fe916240a6fe99ccc16382fe53f51db",
+    "5.csv": "b92003feac4e5ca252b3b54240d794ab612c7f1c612ff5391f0abfaac339546c",
+    "6.csv": "4fc33c010c65f1fce2b79de2a9d6e15e4b5698772c2516ab33a734ebfaf97eda",
+    "7.csv": "66313a472f5624a0d3a2702e6018e0158d0a9527b11b954df28ac4e20aad294e",
+    "8.csv": "944d2ab23a43b48b9c53562650a048db7a16dafc1e294bbdb318e6a37b9da4bb",
+    "9.csv": "5cfc576e2ab0c08853828b6d16a27e90c87deb9fe79daa10f98bbc97fe8b2e8c",
+    "Jan25.csv": "860eaaf7965677c771495dfc1c6cc95cf1f67ec3ac468465b43149f6a87cbdeb"
+  },
+  "reports": {
+    "task1.pdf": "d9ebdfe5406114c6c6593f6d90a24a2d5c0c762c32e5be5f1702a184a2ab3bb3",
+    "task2.pdf": "0e1467ec46830abecf3fc4df056e65ab6d182ec787fabc73d60b16e1bfbc8fa0"
+  },
+  "scientific_parameters": {
+    "policy_version": "professor_aligned_v2",
+    "selected_family": "rpm_cubic",
+    "methods": [
+      "static_rpm_cubic",
+      "historical_offset_72h",
+      "rolling_rpm_cubic_72h"
+    ],
+    "shaft_label_delay_hours": 72,
+    "history_days": 7,
+    "minimum_labels": 100,
+    "minimum_covered_days": 3,
+    "first_update": "2024-08-04T00:00:00Z",
+    "last_update": "2025-01-31T00:00:00Z",
+    "domain": {
+      "low": {
+        "engine_rpm_abs": -8.487500000000004,
+        "turbo": -1909.7089769374998,
+        "fuel_load": -6.423473249999997,
+        "scavenge": -0.98637375,
+        "stw": -3.7250000000000005,
+        "sog": -2.6875,
+        "turn_abs": -1.0
+      },
+      "high": {
+        "engine_rpm_abs": 101.26250000000002,
+        "turbo": 15904.6535492125,
+        "fuel_load": 61.9152107825,
+        "scavenge": 2.8299046075,
+        "stw": 17.475,
+        "sog": 17.1125,
+        "turn_abs": 8.840750000000117
+      }
+    },
+    "domain_provenance": "Frozen January-May independent-feature bounds, retained in v2 impact study; recomputing with v2 labels changes zero gates on supplied record",
+    "near_zero_kw": 100,
+    "rpm_absolute_tolerance": 4.188168054399988,
+    "new_selection_or_tuning": false,
+    "physical_truth_certified": false,
+    "noon_availability": "covered UTC day D becomes available D+2 days; no direct features; does not establish shaft-label arrival",
+    "uncertainty": "Static August recorded-proxy residual radius is retrospective only; no physical coverage guarantee, no adaptive interval transfer"
+  }
+}

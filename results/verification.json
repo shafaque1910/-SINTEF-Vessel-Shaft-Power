@@ -1,0 +1,194 @@
+{
+  "passed": true,
+  "checks": {
+    "measurements": true,
+    "labels": true,
+    "reliability": true,
+    "features": true,
+    "predictions": true,
+    "update_history": true,
+    "saved_estimates_exact": true,
+    "saved_update_history_exact": true,
+    "metrics.csv": true,
+    "coverage.csv": true,
+    "label_counts.csv": true,
+    "uncertainty.csv": true,
+    "model_state_exact": true,
+    "training_members_exact": true,
+    "frozen_protocol_exact": true,
+    "input_1.csv": true,
+    "input_10.csv": true,
+    "input_11.csv": true,
+    "input_12.csv": true,
+    "input_2.csv": true,
+    "input_3.csv": true,
+    "input_4.csv": true,
+    "input_5.csv": true,
+    "input_6.csv": true,
+    "input_7.csv": true,
+    "input_8.csv": true,
+    "input_9.csv": true,
+    "input_Jan25.csv": true,
+    "report_task1.pdf": true,
+    "report_task2.pdf": true,
+    "raw_record_count": true,
+    "active_evaluation_count": true,
+    "no_unreliable_zero_scoring": true,
+    "no_physical_error_claim": true,
+    "independent_metrics": true,
+    "noon_reports_366": true,
+    "noon_has_no_power_reference": true,
+    "independent_import_graph": true
+  },
+  "check_count": 38,
+  "frame_fingerprints": {
+    "measurements": "0c89df6d04a37a5f9b12e4856007fe6dc4a58c99308cf9e63287708a446d6e8b",
+    "labels": "3f368ebb5f13cd01487403ebd7889c577cddfe98cc3544abac89d026e04211ea",
+    "reliability": "8a604611d90ac8d71589f0934e46440d8f6fd3415eaada0e38554d40b823b5cc",
+    "features": "837fe8645e07d9048f353e22ba433e023a9f7e8315f660e4e86d923be429dea3",
+    "predictions": "2b16367dac13a87ed053b3e0191e61fda2d09fbfd22400901ce172a085563872",
+    "update_history": "e940e812c6c0b1ff4a304b8819ae859a5dfdfb4dffa34265964a898b724bde31"
+  },
+  "baseline_id": "run_20261104_final_v2_02_metadata",
+  "maximum_prediction_difference_kw": 0.0,
+  "archive_runtime_access": "forbidden by process audit hook",
+  "runtime_imports": {
+    "change_analysis.py": [
+      "argparse",
+      "configuration",
+      "json",
+      "numpy",
+      "pandas",
+      "preprocessing",
+      "storage",
+      "sys",
+      "verification"
+    ],
+    "configuration.py": [
+      "json",
+      "pathlib"
+    ],
+    "modeling.py": [
+      "configuration",
+      "hashlib",
+      "numpy",
+      "pandas",
+      "reliability"
+    ],
+    "model_comparison.py": [
+      "argparse",
+      "configuration",
+      "hashlib",
+      "json",
+      "numpy",
+      "pandas",
+      "reliability",
+      "sklearn.ensemble",
+      "sklearn.linear_model",
+      "sklearn.pipeline",
+      "sklearn.preprocessing",
+      "storage",
+      "sys",
+      "threadpoolctl",
+      "verification"
+    ],
+    "pipeline.py": [
+      "__future__",
+      "argparse",
+      "configuration",
+      "hashlib",
+      "json",
+      "modeling",
+      "numpy",
+      "pandas",
+      "pathlib",
+      "plotting",
+      "preprocessing",
+      "reliability",
+      "storage",
+      "sys"
+    ],
+    "plotting.py": [
+      "matplotlib",
+      "matplotlib.pyplot",
+      "pandas"
+    ],
+    "preprocessing.py": [
+      "configuration",
+      "numpy",
+      "pandas",
+      "reliability",
+      "storage"
+    ],
+    "reliability.py": [
+      "numpy",
+      "pandas"
+    ],
+    "storage.py": [
+      "hashlib",
+      "json",
+      "numpy",
+      "pandas"
+    ],
+    "verification.py": [
+      "__future__",
+      "argparse",
+      "ast",
+      "configuration",
+      "importlib.util",
+      "io",
+      "json",
+      "numpy",
+      "pandas",
+      "pathlib",
+      "pipeline",
+      "storage",
+      "sys",
+      "unittest"
+    ],
+    "__init__.py": []
+  },
+  "physical_accuracy_validated": false,
+  "live_rolling_approved": false,
+  "cleaning_savings_approved": false,
+  "numerical_parity_scope": "Accepted final static RPM-cubic,72h offset and rolling workflow; candidate historical-fit parity is reported separately.",
+  "supporting_analyses": {
+    "candidate_comparison": {
+      "completed": true,
+      "historical_scores_exact": false,
+      "training_labels": 180673,
+      "historical_training_labels": 180675,
+      "final_artifacts_unchanged": true
+    },
+    "change_investigation": {
+      "completed": true,
+      "passed": true,
+      "final_artifacts_unchanged": true
+    }
+  },
+  "tests": {
+    "run": 40,
+    "failures": 0,
+    "errors": 0,
+    "passed": true
+  },
+  "test_log": "test_current_and_historical_evaluation_population_equal (final_test_analyses.CandidateReproduction.test_current_and_historical_evaluation_population_equal) ... ok\ntest_hyperparameters_and_roundoff_report (final_test_analyses.CandidateReproduction.test_hyperparameters_and_roundoff_report) ... ok\ntest_v2_training_and_no_reselection (final_test_analyses.CandidateReproduction.test_v2_training_and_no_reselection) ... ok\ntest_bh_known_values (final_test_analyses.FrozenDefinitions.test_bh_known_values) ... ok\ntest_block_schedule_and_frozen_settings (final_test_analyses.FrozenDefinitions.test_block_schedule_and_frozen_settings) ... ok\ntest_evidence_comparison_does_not_hide_differences (final_test_analyses.FrozenDefinitions.test_evidence_comparison_does_not_hide_differences) ... ok\ntest_original_seven_definitions (final_test_analyses.FrozenDefinitions.test_original_seven_definitions) ... ok\ntest_permutations_are_deterministic (final_test_analyses.FrozenDefinitions.test_permutations_are_deterministic) ... ok\ntest_selection_uses_only_chronological_selection_rows (final_test_analyses.FrozenDefinitions.test_selection_uses_only_chronological_selection_rows) ... ok\ntest_simple_baselines_training_arithmetic (final_test_analyses.FrozenDefinitions.test_simple_baselines_training_arithmetic) ... ok\ntest_all_change_statistics_and_adjustments_reproduce (final_test_analyses.InvestigationReproduction.test_all_change_statistics_and_adjustments_reproduce) ... ok\ntest_independent_evidence_and_alignment (final_test_analyses.InvestigationReproduction.test_independent_evidence_and_alignment) ... ok\ntest_transition_timestamp_and_missing_boundary_semantics (final_test_analyses.InvestigationReproduction.test_transition_timestamp_and_missing_boundary_semantics) ... ok\ntest_accepted_label_counts (final_test_pipeline.PipelineTests.test_accepted_label_counts) ... ok\ntest_active_zero_primary_and_complete_evidence (final_test_pipeline.PipelineTests.test_active_zero_primary_and_complete_evidence) ... ok\ntest_archive_access_is_blocked (final_test_pipeline.PipelineTests.test_archive_access_is_blocked) ... ok\ntest_coefficient_and_metric_known_values (final_test_pipeline.PipelineTests.test_coefficient_and_metric_known_values) ... ok\ntest_contradictions_take_precedence (final_test_pipeline.PipelineTests.test_contradictions_take_precedence) ... ok\ntest_duplicate_and_conflicting_key_handling (final_test_pipeline.PipelineTests.test_duplicate_and_conflicting_key_handling) ... ok\ntest_eligible_label_reason (final_test_pipeline.PipelineTests.test_eligible_label_reason) ... ok\ntest_exact_completed_minute_boundaries (final_test_pipeline.PipelineTests.test_exact_completed_minute_boundaries) ... ok\ntest_exact_near_zero_boundary (final_test_pipeline.PipelineTests.test_exact_near_zero_boundary) ... ok\ntest_exact_split_boundaries (final_test_pipeline.PipelineTests.test_exact_split_boundaries) ... ok\ntest_future_labels_do_not_change_current_update (final_test_pipeline.PipelineTests.test_future_labels_do_not_change_current_update) ... ok\ntest_hiding_target_does_not_change_features_or_gate (final_test_pipeline.PipelineTests.test_hiding_target_does_not_change_features_or_gate) ... ok\ntest_january_abstention (final_test_pipeline.PipelineTests.test_january_abstention) ... ok\ntest_missing_history_falls_back (final_test_pipeline.PipelineTests.test_missing_history_falls_back) ... ok\ntest_missing_support_is_specific (final_test_pipeline.PipelineTests.test_missing_support_is_specific) ... ok\ntest_mixed_sign_reason (final_test_pipeline.PipelineTests.test_mixed_sign_reason) ... ok\ntest_model_initialization_respects_assumed_arrival (final_test_pipeline.PipelineTests.test_model_initialization_respects_assumed_arrival) ... ok\ntest_negative_sign_reason (final_test_pipeline.PipelineTests.test_negative_sign_reason) ... ok\ntest_no_negative_or_uncertain_zero_scored (final_test_pipeline.PipelineTests.test_no_negative_or_uncertain_zero_scored) ... ok\ntest_original_format_reader (final_test_pipeline.PipelineTests.test_original_format_reader) ... ok\ntest_positive_near_zero_is_unresolved (final_test_pipeline.PipelineTests.test_positive_near_zero_is_unresolved) ... ok\ntest_shared_torquemeter_sources_are_excluded_features (final_test_pipeline.PipelineTests.test_shared_torquemeter_sources_are_excluded_features) ... ok\ntest_sign_convention_reason (final_test_pipeline.PipelineTests.test_sign_convention_reason) ... ok\ntest_stationary_idle_zero_retained (final_test_pipeline.PipelineTests.test_stationary_idle_zero_retained) ... ok\ntest_timezone_grid_exposes_gap_without_imputing_values (final_test_pipeline.PipelineTests.test_timezone_grid_exposes_gap_without_imputing_values) ... ok\ntest_torque_scale_is_only_an_internal_hypothesis (final_test_pipeline.PipelineTests.test_torque_scale_is_only_an_internal_hypothesis) ... ok\ntest_update_membership_and_arrival (final_test_pipeline.PipelineTests.test_update_membership_and_arrival) ... ok\n\n----------------------------------------------------------------------\nRan 40 tests in 6.819s\n\nOK\n",
+  "source_hashes": {
+    "requirements.txt": "be82795cfd7aa4b0a9f885dcaeb71b8b4f3a5f99d524720d106e9638bf591768",
+    "run.py": "1bc66dd99ea9578309218c3e7fdc81c384f94d05f134e3f74d2f51c4c7003603",
+    "src/vessel_power/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/vessel_power/change_analysis.py": "b06ea872096e9ee04d6bc4e4f6098ec7cbaa54c32aa2a49b571abacb6016e447",
+    "src/vessel_power/configuration.py": "a51a8e304c85d5c2e193833ef1738ef85364d68120a234deac98a1ff274e3685",
+    "src/vessel_power/model_comparison.py": "36c0337ff8c8b85a718ab2bb449520beecd756032de9cf23485c1647d887b39d",
+    "src/vessel_power/modeling.py": "4ef3e03d9f419d709c24ebb218a48c920e6f00791e91de48c0386f1c4f6d91e5",
+    "src/vessel_power/pipeline.py": "04e69542357500b33d36807dee17cdc6e6619f985af5a7d47e4eaf7b32182fa1",
+    "src/vessel_power/plotting.py": "b44853bb18945c019dfbf6f2f5a6a2a71bcb708f44604366d3c159980ff9a44f",
+    "src/vessel_power/preprocessing.py": "95a461c6e6b83bb7afe1c3b34d25296e54bde5bd880796731f23a7cb4917c8ea",
+    "src/vessel_power/reliability.py": "e82ac9f89584e94b462c55a3501e9964efc1a00c09eb841b0e6331f475a0d543",
+    "src/vessel_power/storage.py": "2728e42f2795a5ab3a4b23c2129abdd3d6698a27cadf8eacee3d5d800ed506f1",
+    "src/vessel_power/verification.py": "2f24d38722b3bccac98f75e3c0aba3d1c507f200e9f2a493d519c74736440f16",
+    "tests/test_analyses.py": "9e032afedaa6f0716c8d18cee9e4c3a6c9ddad894cd081cd246faf6380d04967",
+    "tests/test_pipeline.py": "1fa81a03666664b935758ade18d4f66e7f6242b5bbdf99935d200b7d95dc8c43",
+    "verify.py": "056bef01465d8c14a1f6c0f6a1bfd98b01d5a9d3b0c96c736723d3c02d80cb33"
+  }
+}

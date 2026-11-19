@@ -1,0 +1,37 @@
+{
+  "models": {
+    "hgb_15": {
+      "l2_regularization": 10,
+      "max_iter": 120,
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 80
+    },
+    "hgb_31": {
+      "l2_regularization": 10,
+      "max_iter": 120,
+      "max_leaf_nodes": 31,
+      "min_samples_leaf": 80
+    },
+    "mean": "fit-label mean",
+    "ridge_1": {
+      "alpha": 1
+    },
+    "ridge_100": {
+      "alpha": 100
+    },
+    "rpm_cubic": "nonnegative coefficient P=a*abs(engine RPM)^3 via training-only least squares",
+    "speed_cubic": "nonnegative coefficient P=a*max(STW,0)^3 via training-only least squares"
+  },
+  "hgb_common": {
+    "random_state": 731,
+    "early_stopping": false,
+    "learning_rate": 0.08
+  },
+  "threads": 2,
+  "selection": "smallest mean of regime-specific mean daily MAE across active/idle in June-July; no August or Sep-Dec selection; report all candidates",
+  "fit_population": "final v2 eligible Jan-May only",
+  "historical_fit_labels": 180675,
+  "current_fit_labels": 180673,
+  "historical_fit_difference": 2,
+  "reference_meaning": "Retained scores evaluate v2 labels using older fitted predictors; exact v2-refit parity is not expected. Never reinclude unresolved labels to force a match."
+}

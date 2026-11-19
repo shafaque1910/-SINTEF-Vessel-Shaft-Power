@@ -1,0 +1,19 @@
+{
+  "policy_version": "professor_aligned_v2",
+  "metadata_revision": "primary_reason_priority_v1",
+  "raw_rows": 42192373,
+  "minutes": 571680,
+  "frame_fingerprints": {
+    "measurements": "0c89df6d04a37a5f9b12e4856007fe6dc4a58c99308cf9e63287708a446d6e8b",
+    "labels": "3f368ebb5f13cd01487403ebd7889c577cddfe98cc3544abac89d026e04211ea",
+    "reliability": "8a604611d90ac8d71589f0934e46440d8f6fd3415eaada0e38554d40b823b5cc",
+    "features": "837fe8645e07d9048f353e22ba433e023a9f7e8315f660e4e86d923be429dea3",
+    "predictions": "2b16367dac13a87ed053b3e0191e61fda2d09fbfd22400901ce172a085563872",
+    "update_history": "e940e812c6c0b1ff4a304b8819ae859a5dfdfb4dffa34265964a898b724bde31"
+  },
+  "raw_input_folder": "data/raw",
+  "python": "3.11.0",
+  "numpy": "2.4.2",
+  "pandas": "3.0.2",
+  "physical_accuracy_validated": false
+}

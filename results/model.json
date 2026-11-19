@@ -1,0 +1,21 @@
+{
+  "policy_version": "professor_aligned_v2",
+  "coefficient": 0.007814723394034443,
+  "training_labels": 180673,
+  "training_members_sha256": "4aeaafc3154f4a2481ecc58f7019103462db13d7ec99ceb9dc05890f2bb6cb5f",
+  "training_first": "2024-01-01 00:01:00+00:00",
+  "training_last": "2024-06-01 00:00:00+00:00",
+  "selector_last": "2024-08-01 00:00:00+00:00",
+  "first_update": "2024-08-04 00:00:00+00:00",
+  "denominator": 6.671129806879502e+16,
+  "model_families": [
+    "rpm_cubic"
+  ],
+  "new_selection": false,
+  "tuning_performed": false,
+  "fixed_methods": [
+    "static_rpm_cubic",
+    "historical_offset_72h",
+    "rolling_rpm_cubic_72h"
+  ]
+}
